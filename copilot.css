@@ -1,0 +1,208 @@
+body {
+  background-color: #fef5f5; /* Blush background */
+  color: #b76e79; /* Darker blush for text */
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #b76e79; /* Darker blush for headings */
+}
+
+a {
+  color: #d4af37; /* Gold for links */
+}
+
+a:hover {
+  color: #b76e79; /* Darker blush on hover */
+}
+
+button,
+.btn {
+  background-color: #d4af37; /* Gold for buttons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #b76e79; /* Darker blush on hover */
+}
+
+header,
+footer {
+  background-color: #b76e79; /* Darker blush for header and footer */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+#undangan {
+  background-color: #fef5f5; /* Blush background */
+}
+
+#undangan h2 {
+  font-size: 2em;
+  color: #b76e79; /* Darker blush for headings */
+}
+
+#undangan p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+#undangan h3 {
+  font-size: 1.5em;
+  color: #b76e79; /* Darker blush for subheadings */
+}
+
+#undangan strong {
+  color: #d4af37; /* Gold for emphasis */
+}
+
+/* Emerald and champagne */
+body {
+  background-color: #e6e2d3; /* Champagne background */
+  color: #086f56; /* Emerald text */
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #086f56; /* Emerald headings */
+}
+
+a {
+  color: #d4af37; /* Champagne for links */
+}
+
+a:hover {
+  color: #086f56; /* Emerald on hover */
+}
+
+button,
+.btn {
+  background-color: #086f56; /* Emerald for buttons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #d4af37; /* Champagne on hover */
+}
+
+header,
+footer {
+  background-color: #086f56; /* Emerald for header and footer */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+#undangan {
+  background-color: #e6e2d3; /* Champagne background */
+}
+
+#undangan h2 {
+  font-size: 2em;
+  color: #086f56; /* Emerald for headings */
+}
+
+#undangan p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+#undangan h3 {
+  font-size: 1.5em;
+  color: #086f56; /* Emerald for subheadings */
+}
+
+#undangan strong {
+  color: #d4af37; /* Champagne for emphasis */
+}
+
+/* navy and silver */
+body {
+  background-color: #f0f0f0; /* Light background */
+  color: #001f3f; /* Navy text */
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #001f3f; /* Navy headings */
+}
+
+a {
+  color: #c0c0c0; /* Silver for links */
+}
+
+a:hover {
+  color: #001f3f; /* Navy on hover */
+}
+
+button,
+.btn {
+  background-color: #001f3f; /* Navy for buttons */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #c0c0c0; /* Silver on hover */
+}
+
+header,
+footer {
+  background-color: #001f3f; /* Navy for header and footer */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+#undangan {
+  background-color: #f0f0f0; /* Light background */
+}
+
+#undangan h2 {
+  font-size: 2em;
+  color: #001f3f; /* Navy for headings */
+}
+
+#undangan p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+#undangan h3 {
+  font-size: 1.5em;
+  color: #001f3f; /* Navy for subheadings */
+}
+
+#undangan strong {
+  color: #c0c0c0; /* Silver for emphasis */
+}

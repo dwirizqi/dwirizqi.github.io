@@ -1,0 +1,302 @@
+:root {
+  --handwrite: "Great Vibes", system-ui;
+  --monserrat: "Montserrat", system-ui;
+
+  --pink: #f82e64;
+  /* --pink: #f8bbd0; */
+  --black: #080808;
+  /* --black: #d4af37; */
+  --shadow: 0 2px 2px rgb(0, 0, 0 / 0.5);
+}
+html {
+  font-family: var(--monserrat);
+}
+body {
+  font-size: 1.2rem;
+  /* min-height: 4000px; */
+}
+.home::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/bg.jpg);
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+}
+.home {
+  position: relative;
+  min-height: 100vh;
+  background-color: rgba(0 0 0 / 0.6);
+  color: #fff;
+}
+/* .home h1,
+.home p {
+  text-shadow: var(--shadow);
+} */
+.home h1,
+.mempelai h1,
+.undangan h1,
+.gallery h1,
+.rsvp h1,
+.gift h1,
+.ucapan h1 {
+  font-family: var(--handwrite);
+  font-size: 5rem;
+  color: var(--pink);
+}
+.home a {
+  color: var(--pink);
+  background-color: #fff;
+  font-size: 1rem;
+}
+.home a:hover {
+  background-color: var(--pink);
+  color: #fff;
+}
+.mynavbar {
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(4px);
+}
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: var(--handwrite);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.mynavbar .nav-link {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.mynavbar .offcanvas {
+  height: 100vh;
+}
+
+.mempelai {
+  /* min-height: 100vh; */
+  background-image: url(img/floral.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: -6rem;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.mempelai h3 {
+  color: var(--black);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.couple {
+  margin-top: 3rem;
+}
+.couple h3 {
+  font-family: var(--handwrite);
+  color: var(--pink);
+  font-weight: bold;
+  font-size: 2.4rem;
+}
+.couple img {
+  width: 100%;
+}
+.couple .alamat {
+  font-size: 0.9rem;
+}
+.arabic {
+  font-family: "Amiri", serif;
+  font-weight: 700;
+}
+.undangan,
+.rsvp,
+.ucapan {
+  background-color: var(--black);
+  padding: 10rem 0 8rem 0;
+}
+.undangan {
+  padding: 10rem 0 0 0;
+}
+.undangan p,
+.gallery p,
+.rsvp p,
+.gift p,
+.ucapan p {
+  /* font-size: 1.1rem; */
+  font-weight: 300;
+}
+
+.undangan .card {
+  border: 1px solid #999;
+}
+.undangan .card-header {
+  border-bottom: 1px solid #999;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.undangan .card-footer {
+  border-top: 1px solid #999;
+  font-size: 0.9rem;
+}
+.undangan .bi-clock,
+.undangan .bi-calendar3 {
+  font-size: 2rem;
+}
+
+.undangan .btn-map:hover {
+  color: var(--pink) !important;
+  /* background-color: #fff; */
+}
+.gallery {
+  padding: 10rem 0 8rem 0;
+}
+.gift {
+  background-color: #f5d9e0;
+  padding: 10rem 0 8rem 0;
+}
+.gallery p,
+.gift p {
+  color: var(--black);
+}
+.gift .list-group input {
+  border: none;
+}
+.gift button {
+  background-color: var(--pink);
+  color: #fff;
+  padding: 0.3rem 2rem;
+  margin-top: 0.8rem;
+}
+.gift button:hover {
+  background-color: #fff;
+  color: var(--pink);
+  border: 1px solid var(--pink);
+}
+.rsvp h1 {
+  font-size: 4rem;
+}
+.rsvp form label,
+.ucapan form label {
+  color: #fff;
+  font-weight: 300;
+}
+#isi_ucapan {
+  height: 100px;
+}
+.rsvp button {
+  background-color: var(--pink);
+  color: #fff;
+  margin-top: 35px;
+}
+.rsvp button:hover,
+.ucapan button:hover {
+  background-color: #fff;
+  color: var(--pink);
+}
+
+.ucapan sup {
+  color: var(--pink);
+  font-size: 1.2rem;
+}
+
+.ucapan h1 {
+  font-size: 4rem;
+}
+.ucapan button {
+  background-color: var(--pink);
+  color: #fff;
+}
+#list-ucapan .card,
+#list-ucapan .card-title {
+  font-size: 0.95rem;
+}
+#list-ucapan .card-subtitle {
+  font-size: 0.7rem;
+}
+.btn-group {
+  background-color: #fff;
+  color: var(--pink);
+}
+.btn-group button {
+  background-color: var(--pink);
+  color: #fff;
+  border: 0;
+}
+.btn-group #page-info {
+  padding: 0 0.5rem;
+}
+
+footer {
+  font-family: var(--handwrite);
+  font-size: 1.5rem;
+  /* color: var(--pink); */
+}
+
+/* Audio */
+.audio-icon-wrapper {
+  width: 4rem;
+  height: 4rem;
+  font-size: 4rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.5;
+  mix-blend-mode: difference;
+  animation: rotating 4s linear infinite;
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* MEDIA QUERY */
+/* Laptop */
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 30px 45px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 25px 50px;
+    margin: 5px;
+  }
+  .mynavbar .nav-link {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .sticky-top {
+    overflow: hidden;
+  }
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+  html {
+    font-size: 80%;
+  }
+  .simply-countdown > .simply-section {
+    padding: 20px 40px;
+    margin: 3px;
+    border-radius: 8px;
+  }
+}
