@@ -1,9 +1,9 @@
 // Countdown
 simplyCountdown(".simply-countdown", {
   year: 2025, // required
-  month: 5, // required
-  day: 25, // required
-  hours: 8, // Default is 0 [0-23] integer
+  month: 4, // required
+  day: 26, // required
+  hours: 11, // Default is 0 [0-23] integer
   minutes: 0, // Default is 0 [0-59] integer
   seconds: 0, // Default is 0 [0-59] integer
   words: {
